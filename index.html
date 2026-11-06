@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pun: Three Works</title>
+<meta name="description" content="Three selected works by Pun, Digital Media student at RMIT University Vietnam.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d0f0d;--ink:#ecebe4;--mute:#9a9a92;--line:#2a2d29;--accent:#b6ffea}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.mono{font-family:"VT323",ui-monospace,monospace;letter-spacing:.04em;font-size:1.25em}
+header{padding:72px 0 56px;border-bottom:1px solid var(--line)}
+header .mono{color:var(--accent);font-size:18px;margin:0 0 18px}
+h1{font-family:"VT323",ui-monospace,monospace;font-weight:400;font-size:clamp(44px,7vw,84px);line-height:1;margin:0 0 20px;letter-spacing:-.01em}
+h1 em{color:var(--mute)}
+header p.lede{max-width:56ch;color:var(--mute);margin:0}
+nav.idx{display:flex;gap:28px;flex-wrap:wrap;margin-top:32px;font-size:14px}
+nav.idx a{text-decoration:none;color:var(--mute)}
+nav.idx a:hover,nav.idx a:focus-visible{color:var(--ink)}
+nav.idx b{color:var(--accent);font-weight:400;margin-right:6px;font-size:18px}
+
+article{display:grid;grid-template-columns:1.45fr 1fr;gap:48px;padding:72px 0;border-bottom:1px solid var(--line);align-items:start;scroll-margin-top:16px}
+article:nth-of-type(even) .media{order:2}
+.media{position:relative;background:#000;border:1px solid var(--line);overflow:hidden}
+.media img,.media video{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}
+.media video{aspect-ratio:16/9}
+.num{font-size:17px;color:var(--accent);margin:0 0 14px}
+h2{font-family:"VT323",ui-monospace,monospace;font-weight:400;font-size:clamp(34px,4.4vw,52px);line-height:1.05;margin:0 0 22px}
+dl{display:grid;grid-template-columns:84px 1fr;gap:6px 14px;margin:0 0 22px;font-size:14px}
+dt{color:var(--mute)}
+dd{margin:0}
+.about{margin:0 0 26px;max-width:46ch}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.links a{font-size:14px;text-decoration:none;border:1px solid var(--line);padding:9px 14px;border-radius:2px;transition:border-color .15s,color .15s}
+.links a:hover,.links a:focus-visible{border-color:var(--accent);color:var(--accent)}
+.links a::after{content:" ↗"}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.credit{font-size:13px;color:var(--mute);margin:18px 0 0}
+.more{padding:64px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.more h2{font-size:clamp(28px,3.4vw,40px);margin:0 0 6px}
+.more p{margin:0;color:var(--mute);max-width:52ch}
+footer{padding:48px 0 64px;color:var(--mute);font-size:14px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media (max-width:820px){
+  article{grid-template-columns:1fr;gap:28px;padding:52px 0}
+  article:nth-of-type(even) .media{order:0}
+  header{padding:48px 0 40px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.links a{transition:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="mono">SELECTED WORKS · 3</p>
+    <h1>Pun <em>/ how I think &amp; make</em></h1>
+    <p class="lede">Digital Media student at RMIT University Vietnam. I make interactive work where bodies, nature and code meet: installations, web experiences and animation that ask the viewer to take part.</p>
+    <nav class="idx" aria-label="Works">
+      <a href="#organic"><b class="mono">01</b>ORGAN(IC)</a>
+      <a href="#silent-war"><b class="mono">02</b>The Silent War</a>
+      <a href="#glass-essay"><b class="mono">03</b>The Glass Essay</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <article id="organic">
+    <div class="media">
+      <video src="organic-a.mp4" poster="organic-poster.jpg" muted loop playsinline preload="metadata" aria-label="ORGAN(IC) preview: glowing red hands rise like plants from a forest floor"></video>
+    </div>
+    <div>
+      <p class="num mono">01 / INSTALLATION</p>
+      <h2>ORGAN(IC)</h2>
+      <dl>
+        <dt>Year</dt><dd>2026</dd>
+        <dt>Medium</dt><dd>Interactive installation: TouchDesigner, physical computing, real-time 3D visuals</dd>
+        <dt>Role</dt><dd>Group project (team of three): co-creator, real-time visuals</dd>
+      </dl>
+      <p class="about">An immersive installation that explores the biological parallels between humans and nature, as hands grow like roots and bodies gather like plants. Visitors' physical input drives the real-time visuals, so the piece only comes alive through the people inside it.</p>
+      <div class="links">
+        <a href="https://drive.google.com/file/d/1tM--71ESxD4Wej4vmEKX_jYbu7Ti5GWu/view?usp=sharing" target="_blank" rel="noopener">Watch full video</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="silent-war">
+    <div class="media">
+      <img src="silentwar.jpg" alt="The Silent War opening screen: halftone soldiers' boots beside the text 'Join our army now' with Leave and Join buttons" loading="lazy">
+    </div>
+    <div>
+      <p class="num mono">02 / INTERACTIVE WEB</p>
+      <h2>The Silent War</h2>
+      <dl>
+        <dt>Year</dt><dd>2025</dd>
+        <dt>Medium</dt><dd>Interactive web experience: p5.js, JavaScript, HTML/CSS</dd>
+        <dt>Role</dt><dd>Individual</dd>
+      </dl>
+      <p class="about">An interactive commentary on forced military conscription. Uses an experimental visual style and mini shooting-game mechanics to immerse players in the soldier's experience and provoke reflection on the destruction of war.</p>
+      <div class="links">
+        <a href="https://punpun-hatescoding.github.io/The-Silent-War---An-Interative-Experience/" target="_blank" rel="noopener">Play the experience</a>
+        <a href="https://www.instagram.com/p/DUlFt9Pk8c5/" target="_blank" rel="noopener">Watch walkthrough</a>
+      </div>
+    </div>
+  </article>
+
+  <article id="glass-essay">
+    <div class="media">
+      <img src="glassessay.jpg" alt="The Glass Essay title screen: hand-lettered pale script framed by red scribbled flourishes on a dark chalkboard" loading="lazy">
+    </div>
+    <div>
+      <p class="num mono">03 / WEB POEM</p>
+      <h2>The Glass Essay</h2>
+      <dl>
+        <dt>Year</dt><dd>2025</dd>
+        <dt>Medium</dt><dd>Interactive web-based poem: HTML, CSS, JavaScript</dd>
+        <dt>Role</dt><dd>Individual</dd>
+      </dl>
+      <p class="about">An interactive adaptation of a poem about memory and loss. Hand-drawn textures and slow, reader-paced interaction turn reading into an act of remembering.</p>
+      <div class="links">
+        <a href="https://punpun-hatescoding.github.io/The-Glass-Essay/" target="_blank" rel="noopener">Open the poem</a>
+        <a href="https://youtu.be/eB6poxOjdf4" target="_blank" rel="noopener">Watch walkthrough</a>
+      </div>
+      <p class="credit">Text: “The Glass Essay” by Anne Carson.</p>
+    </div>
+  </article>
+  <section class="more" aria-labelledby="more-title">
+    <div>
+      <p class="num mono">MORE WORK</p>
+      <h2 id="more-title">Full portfolio</h2>
+      <p>Animation, digital illustration, traditional painting, tattoo flash and more web projects.</p>
+    </div>
+    <div class="links"><a href="https://punpun-hatescoding.github.io/Puns_Creative-Portfolio-2026/" target="_blank" rel="noopener">Visit portfolio</a></div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>Pun · RMIT University Vietnam, Digital Media</span>
+  <a href="https://punpun-hatescoding.github.io/Puns_Creative-Portfolio-2026/works.html" target="_blank" rel="noopener">Full portfolio ↗</a>
+</footer>
+
+<script>
+(() => {
+  const v = document.querySelector('#organic video');
+  if (!v || matchMedia('(prefers-reduced-motion: reduce)').matches) { if (v) v.controls = true; return; }
+  new IntersectionObserver(([e]) => { e.isIntersecting ? v.play().catch(() => { v.controls = true; }) : v.pause(); }, {threshold: .35}).observe(v);
+})();
+</script>
+</body>
+</html>
